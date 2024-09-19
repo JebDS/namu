@@ -70,6 +70,13 @@ input[type="text"]{
     font-size: 15px;
 }
 
+input[type="text"]:focus{
+    border: 5px solid rgb(146, 146, 146);
+    margin-left: -5px;
+    outline: 0;
+    transition: 0.2s;
+}
+
 button{
     vertical-align:middle; /*수직정렬*/
     background-color: rgb(47, 48, 51);
@@ -113,6 +120,11 @@ nav ul{
     margin: 0;
     padding: 5px;
     padding-left: 50px;
+}
+
+nav img{
+    vertical-align:middle;
+    margin-bottom: 3px;
 }
 
 section{
