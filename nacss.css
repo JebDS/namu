@@ -47,11 +47,6 @@ a:hover{
 /* ----------------기본 설정----------------*/
 /* ----------------기본 설정----------------*/
 
-img{
-    vertical-align:middle;
-    margin-bottom: 3px;
-}
-
 hr{
     border-color: rgb(70, 70, 70);
 }
@@ -139,16 +134,21 @@ section{
     padding-bottom: 24px;
 }
 
+section ul{
+    margin: 0;
+    padding: 5px;
+    padding-left: 30px;
+}
+
+section img{
+    vertical-align:middle;
+    margin-bottom: 3px;
+}
+
 article{
     text-align: center;
     margin-top: 15px;
     margin-bottom: 15px;
-}
-
-article ul{
-    margin: 0;
-    padding: 5px;
-    padding-left: 30px;
 }
 
 footer{
@@ -158,6 +158,20 @@ footer{
     padding: 20px;
     padding-left: 70px;
     margin-top: 20px;
+}
+
+footer ul{
+    margin: 0;
+    padding: 0;
+}
+
+footer li{
+    margin-right: 14px;
+    display: inline-block; /*가로정렬*/
+}
+
+footer p{
+    font-size: 13px;
 }
 
 /* ----------------id설정----------------*/
