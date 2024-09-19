@@ -79,6 +79,17 @@ input[type="text"]:focus{
     transition: 0.2s;
 }
 
+input[type="checkbox"] {
+    display: none;
+    background-color: black;
+    padding: 0;
+}
+
+label{
+    font-size: 16px;
+    font-weight: 700;
+}
+
 button{
     vertical-align:middle; /*수직정렬*/
     background-color: rgb(47, 48, 51);
@@ -283,4 +294,13 @@ footer p{
     border-top: 8px solid rgb(88, 161, 149);
     padding: 12px;
     text-align: left;
+}
+
+.moreV{
+    display: -webkit-box;
+    /* transition: 0.5s; */
+}
+
+.w{
+    color: rgb(255, 0, 0);
 }
