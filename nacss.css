@@ -297,7 +297,7 @@ footer p{
 }
 
 .moreV{
-    display: -webkit-box;
+    display: none;
     /* transition: 0.5s; */
 }
 
