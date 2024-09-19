@@ -28,7 +28,7 @@ p{
     margin: 0;
     font-size: 16px;
     line-height: 25px; /*행간*/
-    font-weight: 300;
+    font-weight: 400;
 }
 
 a{
@@ -218,16 +218,17 @@ footer p{
 
 .link{/*초록글씨 링크*/
     text-decoration: none; /*밑줄 제거*/
-    color: rgb(64, 126, 35);
+    color: rgb(82, 156, 47);
+    
 }
 
 .link:hover{
-    /* border-bottom: 1px solid rgb(64, 126, 35);
+    /* border-bottom: 1px solid rgb(82, 156, 47);
     text-decoration: none; */
     text-decoration: underline;
     text-decoration-thickness: 1px;
-    text-decoration-color: rgb(64, 126, 35);
-    color: rgb(64, 126, 35);
+    text-decoration-color: rgb(82, 156, 47);
+    color: rgb(82, 156, 47);
 }
 
 .etc{
