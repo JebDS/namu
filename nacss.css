@@ -1,0 +1,256 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+
+body{
+    background-color: rgb(0, 0, 0); /* 목차 47-48-51, black 뒷배경, 28-29-31 본배경 */
+    font-family: Pretendard;
+    color: rgb(224, 224, 224);
+    margin: 0;
+    padding: 0;
+}
+
+/* ----------------폰트, 문장----------------*/
+/* ----------------폰트, 문장----------------*/
+/* ----------------폰트, 문장----------------*/
+
+h1{
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0;
+}
+
+h2{
+    font-size: 21px;
+    font-weight: 600;
+    margin: 0;
+}
+
+p{
+    margin: 0;
+    font-size: 16px;
+    line-height: 25px; /*행간*/
+    font-weight: 300;
+}
+
+a{
+    text-decoration: none; /*밑줄 제거*/
+    color: rgb(217, 162, 64);
+}
+
+a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-decoration-color: rgb(217, 130, 64);
+    color: rgb(217, 130, 64);
+}
+
+/* ----------------기본 설정----------------*/
+/* ----------------기본 설정----------------*/
+/* ----------------기본 설정----------------*/
+
+img{
+    vertical-align:middle;
+    margin-bottom: 3px;
+}
+
+hr{
+    border-color: rgb(70, 70, 70);
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th, td{
+    text-align: left;
+    border: 1px solid rgb(70, 70, 70);
+    padding: 8px;
+}
+
+input[type="text"]{
+    background-color: black;
+    border-radius: 5px;
+    border: none;
+    color: rgb(224, 224, 224);
+    padding: 10px;
+    font-size: 15px;
+}
+
+button{
+    vertical-align:middle; /*수직정렬*/
+    background-color: rgb(47, 48, 51);
+    color: rgb(224, 224, 224);
+    padding: 10px;
+    font-size: 18px;
+    /*모서리 둥글게*/
+    border-radius: 5px;
+    border: none;
+}
+
+/*눌렀을 때*/
+button:focus{
+    outline: 0;
+}
+
+/*마우스를 올렸을 때*/
+button:hover{
+    background-color: rgb(68, 68, 71);
+    color: rgb(224, 224, 224);
+    /*마우스 누름 버튼모양으로*/
+    cursor: pointer;
+}
+
+/* ----------------시맨틱 태그 설정----------------*/
+/* ----------------시맨틱 태그 설정----------------*/
+/* ----------------시맨틱 태그 설정----------------*/
+
+nav{
+    background-color: rgb(47, 48, 51);
+    width: 100%;
+    margin: 0;
+}
+
+nav li{
+    margin-left: 18px;
+    display: inline-block; /*가로정렬*/
+}
+
+nav ul{
+    margin: 0;
+    padding: 5px;
+    padding-left: 50px;
+}
+
+section{
+    /*디폴트 스타일 제거*/
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    
+    background-color: rgb(28, 29, 31);
+    width: 1000px;
+    border: 2px solid rgb(70, 70, 70);
+    border-radius: 10px;
+
+    margin-top: 16px;
+    margin-left: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 24px;
+}
+
+article{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+article ul{
+    margin: 0;
+    padding: 5px;
+    padding-left: 30px;
+}
+
+footer{
+    background-color: rgb(28, 29, 31);
+    /* width: 100%; */
+    border-top: 2px solid rgb(70, 70, 70);
+    padding: 20px;
+    padding-left: 70px;
+    margin-top: 20px;
+}
+
+/* ----------------id설정----------------*/
+/* ----------------id설정----------------*/
+/* ----------------id설정----------------*/
+
+
+#gp{
+    border: 2px solid rgb(70, 70, 70);
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+#rand{
+    background-color: black;
+    margin-left: 450px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    margin-right: -13px;
+    height: 43px;
+}
+
+/*눌렀을 때*/
+#rand:focus{
+    outline: 0;
+}
+
+.li{
+    background-color: rgb(46, 47, 52);
+}
+
+.lii{
+    background-color: black;
+    width: 1200px;
+}
+
+.liImg{
+    width: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.link{/*초록글씨 링크*/
+    text-decoration: none; /*밑줄 제거*/
+    color: rgb(64, 126, 35);
+}
+
+.link:hover{
+    /* border-bottom: 1px solid rgb(64, 126, 35);
+    text-decoration: none; */
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-decoration-color: rgb(64, 126, 35);
+    color: rgb(64, 126, 35);
+}
+
+.etc{
+    text-decoration: none; /*밑줄 제거*/
+    color: rgb(224, 224, 224);
+}
+
+.etc:hover{ /*흰글씨 링크*/
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-decoration-color: rgb(217, 130, 64);
+    color: rgb(224, 224, 224);
+}
+
+.etc2{
+    text-decoration: none; /*밑줄 제거*/
+    color: rgb(224, 224, 224);
+}
+
+.etc2:hover{ /*흰글씨 두꺼운 링크*/
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: rgb(217, 130, 64);
+    color: rgb(224, 224, 224);
+}
+
+.lg{
+    width: 20px;
+}
+
+.lg2{
+    width: 25px;
+}
+
+.al{
+    border: 1px solid rgb(146, 146, 146);
+    border-top: 8px solid rgb(88, 161, 149);
+    padding: 12px;
+    text-align: left;
+}
