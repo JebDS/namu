@@ -180,12 +180,11 @@ article{
 
 aside{    
     /* background-color: rgb(126, 156, 215); */
-    width: 22%;
-    
+    width: 320px;   
     text-align: center;
     float: right;
     margin-top: 16px;
-    margin-right: 5%;
+    margin-right: 6%;
     padding:0;
 }
 
@@ -355,7 +354,7 @@ footer p{
     box-sizing: border-box; /*padding이 크기 영향 X*/
 
     background-color: rgb(28, 29, 31);
-    width: 100%;
+    width: 320px;
     border: 1px solid rgb(70, 70, 70);
     border-radius: 8px;
     margin-bottom: 20px;
