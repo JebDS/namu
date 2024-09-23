@@ -54,3 +54,16 @@ function news(){
   document.getElementById('asP4').innerText = asP4;
   document.getElementById('asP5').innerText = asP5;
 }
+
+// function ads(){
+//   var floatPosition = parseInt($("#fimg").css('top'))
+
+//   // scroll 인식
+//   $(window).scroll(function() {
+    
+//       // 현재 스크롤 위치
+//       var currentTop = $(window).scrollTop();
+//       var bannerTop = currentTop + floatPosition + "px";
+
+//   }).scroll();
+// }

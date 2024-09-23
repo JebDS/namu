@@ -290,6 +290,10 @@ footer p{
     text-overflow: ellipsis; /* 글자가 넘어가면 말줄임(...) 표시 */
 }
 
+/* #fimg{
+    position : relative;
+} */
+
 .li{
     background-color: rgb(46, 47, 52);
 }
