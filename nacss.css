@@ -186,6 +186,7 @@ aside{
     margin-top: 16px;
     margin-right: 6%;
     padding:0;
+    /* position: relative; */
 }
 
 footer{
@@ -291,7 +292,8 @@ footer p{
 }
 
 /* #fimg{
-    position : relative;
+    top: 10px;
+    position: absolute;
 } */
 
 .li{

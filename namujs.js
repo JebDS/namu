@@ -59,11 +59,12 @@ function news(){
 //   var floatPosition = parseInt($("#fimg").css('top'))
 
 //   // scroll 인식
-//   $(window).scroll(function() {
+//   $(aside).scroll(function() {
     
-//       // 현재 스크롤 위치
-//       var currentTop = $(window).scrollTop();
-//       var bannerTop = currentTop + floatPosition + "px";
-
+//   // 현재 스크롤 위치
+//   var currentTop = $(aside).scrollTop();
+//   var bannerTop = currentTop + floatPosition + "px";
+  
+//   $("#fimg").css('top', bannerTop);
 //   }).scroll();
 // }
