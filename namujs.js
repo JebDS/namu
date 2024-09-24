@@ -57,10 +57,6 @@ function moreVV(event){
   // }
 }
 
-function ex(){
-  alert("13212313")
-}
-
 function d(){
   const currentDate = new Date();
   
