@@ -186,7 +186,7 @@ aside{
     margin-top: 16px;
     margin-right: 6%;
     padding:0;
-    /* position: relative; */
+    position: relative;
 }
 
 footer{
@@ -296,6 +296,18 @@ footer p{
     position: absolute;
 } */
 
+.document{
+    text-align: left;
+}
+
+.content{
+    background-color: rgb(28, 29, 31);
+    border: 1px solid rgb(70, 70, 70);
+    width: 15%;
+
+    padding: 18px;
+}
+
 .li{
     background-color: rgb(46, 47, 52);
 }
@@ -370,6 +382,11 @@ footer p{
     /* transition: 0.5s; */
 }
 
+#moreV1, #moreV2, #moreV3, #moreV4{
+    display: block;
+    /* transition: 0.5s; */
+}
+
 .w{
     color: rgb(255, 0, 0);
 }
@@ -386,4 +403,9 @@ footer p{
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.tit{
+    cursor: pointer;
+    font-size: 30px;
 }

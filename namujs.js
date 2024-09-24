@@ -17,6 +17,50 @@ function moreView(event){
     }
 }
 
+function moreVV(event){
+  // const ck1 = document.getElementById('ch1');
+  // const ck2 = document.getElementById('ch2');
+  // const ck3 = document.getElementById('ch3');
+  // const ck4 = document.getElementById('ch4');
+
+  var ck = "ch"; //체크박스
+  var id = "Ch"; //내용
+  var id2 = "CCh"; //<a></a>
+
+  const li=4;
+  for (var i=1; i<=li; i++){
+    const text = document.querySelector('.moreV'+i);
+    const CK = document.getElementById(ck+i);
+    if (CK.checked){
+      text.style.display = 'none';
+      document.getElementById(id2+i).style.color = 'rgb(151, 93, 49)';
+      document.getElementById(id+i).style.color = 'rgb(143, 143, 143)';
+    }
+    else {
+      text.style.display = 'block';
+      document.getElementById(id2+i).style.color = 'rgb(217, 162, 64)';
+      document.getElementById(id+i).style.color = 'rgb(224, 224, 224)';
+    }
+  }
+
+  // const text = document.querySelector('.moreV1');
+  
+  // if(!event.target.checked)  {
+  //   text.style.display = 'block';
+  //   document.getElementById('CCh1').style.color = 'rgb(217, 162, 64)';
+  //   document.getElementById('Ch1').style.color = 'rgb(224, 224, 224)';
+  // }else {
+  //   text.style.display = 'none';
+  //   document.getElementById('CCh1').style.color = 'rgb(151, 93, 49)';
+  //   document.getElementById('Ch1').style.color = 'rgb(143, 143, 143)';
+
+  // }
+}
+
+function ex(){
+  alert("13212313")
+}
+
 function d(){
   const currentDate = new Date();
   
